@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, bug in PHP related to modifying an array while iterating through it using a foreach loop.  The example shows how using unset() within the loop can lead to unexpected behavior due to the loop's internal pointer skipping over elements.
